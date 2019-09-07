@@ -71,6 +71,11 @@ define('TMP', ROOT . DS . 'tmp' . DS);
 define('LOGS', ROOT . DS . 'logs' . DS);
 
 /**
+ * Path to the templates directory.
+ */
+define('TEMPLATES', ROOT . DS . 'templates' . DS);
+
+/**
  * Path to the cache files directory. It can be shared between hosts in a multi-server setup.
  */
 define('CACHE', TMP . 'cache' . DS);
